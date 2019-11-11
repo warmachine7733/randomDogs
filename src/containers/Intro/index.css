@@ -1,0 +1,46 @@
+.introWrapper {
+  width: 100%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.paragraph {
+  position: relative;
+  top: 100px;
+  font-size: 140px;
+  text-align: center;
+}
+
+.categoryWrapper {
+  position: relative;
+  top: 150px;
+  height: 40%;
+  /* border: 1px solid black; */
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.dog {
+  float: left;
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+}
+.cat {
+  float: left;
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+}
+
+/* media**/
+@media (max-width: 787px) {
+  .paragraph {
+    font-size: 35px;
+  }
+  .categoryWrapper {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}

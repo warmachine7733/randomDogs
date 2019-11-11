@@ -1,0 +1,55 @@
+.homeWrapper {
+  width: 100%;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.breedName {
+  font-size: 20px;
+  text-align: center;
+}
+.imageWrapper {
+  /* display: block; */
+  margin: auto;
+  /* padding: 10px; */
+  width: 100%;
+  /* height: 50%; */
+  height: 300px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.imageWrapper > img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 300px;
+}
+.loaderPosition {
+  position: absolute;
+  top: 40%;
+  left: 47.5%;
+}
+.contentWrapper {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+}
+.generateButton {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 60%;
+  left: 47.5%;
+  /* text-align: center; */
+  align-items: center;
+}
+@media (max-width: 760px) {
+  .generateButton {
+    top: 80%;
+    left: 36%;
+  }
+  .loaderPosition {
+    left: 36%;
+  }
+}
