@@ -44,3 +44,15 @@
     padding-right: 4px;
   }
 }
+
+.logoWrapper {
+  position: relative;
+  top: 160px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logoWrapper > img {
+  max-width: 40%;
+}

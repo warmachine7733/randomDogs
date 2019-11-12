@@ -20,7 +20,10 @@ class Intro extends Component {
       <div className="introWrapper">
         <div className="paragraph">
           {/* <p>which one you like?</p> */}
-          Dog Life
+          Dog Lyf
+        </div>
+        <div className="logoWrapper">
+          <img src="/logo-512.jpg" alt="img" />
         </div>
         {/* <div className="categoryWrapper">
           <div onClick={this.handleCatAndRoute} id="dog" className="dog">

@@ -38,18 +38,17 @@
 .generateButton {
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: relative;
   top: 60%;
-  left: 47.5%;
+  /* left: 47.5%; */
   /* text-align: center; */
   align-items: center;
 }
 @media (max-width: 760px) {
   .generateButton {
     top: 80%;
-    left: 36%;
   }
   .loaderPosition {
-    left: 36%;
+    left: 37%;
   }
 }
